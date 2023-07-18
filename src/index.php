@@ -1,6 +1,6 @@
 <?php
 
-use ChrisHolland\DataImporter\Importer\CsvImporter;
+use App\DataImporter\Importer\CsvImporter;
 
 require_once 'vendor/autoload.php';
 

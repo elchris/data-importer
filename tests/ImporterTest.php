@@ -1,8 +1,8 @@
 <?php
 
-namespace ChrisHolland\DataImporter\Test;
+namespace App\DataImporter\Test;
 
-use ChrisHolland\DataImporter\Importer\CsvImporter;
+use App\DataImporter\Importer\CsvImporter;
 use PHPUnit\Framework\TestCase;
 
 class ImporterTest extends TestCase

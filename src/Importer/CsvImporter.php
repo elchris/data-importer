@@ -1,6 +1,6 @@
 <?php
 
-namespace ChrisHolland\DataImporter\Importer;
+namespace App\DataImporter\Importer;
 
 class CsvImporter
 {

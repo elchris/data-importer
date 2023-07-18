@@ -13,12 +13,12 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "ChrisHolland\\DataImporter\\": "src/"
+            "App\\DataImporter\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ChrisHolland\\DataImporter\\Test\\": "tests/"
+            "App\\DataImporter\\Test\\": "tests/"
         }
     },
     "authors": [
