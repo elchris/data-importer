@@ -47,14 +47,12 @@ Create an executable "phar" archive which will perform the following:
 ## General Notes
 - Assume the program will be run multiple times.
 - It can be assumed all data is based in the United States.
-- You're free to include any open source libraries you'd like to make the task easier.
-- Please contain the answer to a single file named `importer.php`. You're free to use any architectural style you wish.
 - Empty values should be inserted as `null` wherever possible.
 - (Optional) Create indexes on the `customer` table where you may think necessary.
 - The following command will be used to execute the script:
 
 ```bash
-php ./data-importer.phar AAA1-Customers.csv
+php ./data-importer.phar tests/AAA1-Customers.csv
 ```
 
 - Output an error if the filepath passed in as and argument to the script does not exist.
