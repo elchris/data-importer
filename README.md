@@ -55,7 +55,7 @@ Create an executable "phar" archive which will perform the following:
 php ./data-importer.phar tests/AAA1-Customers.csv
 ```
 
-- Output an error if the filepath passed in as and argument to the script does not exist.
+- Output an error if the filepath passed in as an argument to the script does not exist.
 
 ## Customer Notes
 - A unique, single column, primary key that is independent from the customer number is required.
