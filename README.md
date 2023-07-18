@@ -2,10 +2,9 @@
 
 ### Checkout the project
 
-
 ### Install Box on Your System
 
-"Box" will generate the "phar" archive of your work based on [./box.json]([url](https://github.com/elchris/data-importer/blob/main/box.json))
+"Box" will generate the "phar" archive of your work based on [./box.json](https://github.com/elchris/data-importer/blob/main/box.json)
 
 - Follow these instructions:
   - https://github.com/box-project/box/blob/main/doc/installation.md
