@@ -8,10 +8,13 @@ use PHPUnit\Framework\TestCase;
 class ImporterTest extends TestCase
 {
     private const TEST_FILE = './tests/AAA1-Customers.csv';
+    private const DB_FILE = './serviceline.db';
 
     public function testFileHandling(): void
     {
         $this->getFileToTest();
+        fopen(self::DB_FILE, 'wb');
+        self::assertFileExists(self::DB_FILE);
     }
 
     public function testImportData(): void
@@ -21,6 +24,7 @@ class ImporterTest extends TestCase
         );
 
         self::assertSame(self::TEST_FILE, $importer->getFile());
+        self::assertFileExists($importer->getFile());
     }
 
     private function getFileToTest(): string
