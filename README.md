@@ -5,10 +5,11 @@
 
 ### Install Box on Your System
 
-"Box" will generate the "phar" archive of your work
+"Box" will generate the "phar" archive of your work based on ./box.json
 
 - Follow these instructions:
   - https://github.com/box-project/box/blob/main/doc/installation.md
+    - Mac Users: the HomeBrew route works very well.
 
 ### Run Composer install
 
@@ -21,13 +22,19 @@
 
 - Run:
   - `box compile`
-    - this should generate a data-importer.phar file in your directory
+    - this should generate a `data-importer.phar` file in your directory
+
+### Run / Test the Phar File
+
+- Run:
+  - `./data-importer.phar tests/AAA1-Customers.csv `
 
 ## Engineering Notes
 
-- Bonus points for test-driving the solution, but not required
-- Feel free to include any open-source library in your project
-- Feel free to structure the code as you see fit
+- `src/index.php` is what echoes the output when running `./data-importer.phar`
+- Bonus points for test-driving the solution, but not required.
+- Feel free to include any open-source library in your project.
+- Feel free to structure the code and create as many classes as you see fit.
 
 ## Task Description
 Create an executable "phar" archive which will perform the following:
